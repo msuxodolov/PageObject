@@ -48,7 +48,7 @@ class MoneyTransferTest {
         assertEquals(expectedBalanceFirstCard, actualBalanceFirstCard);
         assertEquals(expectedBalanceSecondCard, actualBalanceSecondCard);
     }
-    
+
     @Test
     void inValidMoneyTest() {
         var amount = generateInValidAmount(firstCardBalance);
